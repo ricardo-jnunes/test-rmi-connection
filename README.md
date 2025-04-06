@@ -1,6 +1,6 @@
 # test-rmi-connection
 
-RMI is a light way of remote communicate, different from HTTP restful api, RMI require using JAVA in both side. 
-We have a production using RMI, recently need add a test for it.
+RMI is a lightweight way of remote communication, unlike the RESTful HTTP API, RMI requires the use of JAVA on both sides.
+We have a production environment where applications use RMI, recently we needed to perform a test to validate the connections.
 
-The easiest way is using the lookup with this code.
+The easiest way to validate was with a simple code, generate a jar and run it.
